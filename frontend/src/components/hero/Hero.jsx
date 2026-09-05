@@ -1,11 +1,6 @@
 import "./Hero.css";
 
-import { Col, Container, Image, Row } from "react-bootstrap";
-import iconReact from "../../assets/icons/icons8-react-native-240.png";
-import iconHtml from "../../assets/icons/icons8-html-240.png";
-import iconCSS from "../../assets/icons/icons8-css-240.png";
-import iconJavascript from "../../assets/icons/icons8-javascript-240.png";
-import iconPython from "../../assets/icons/icons8-python-240.png";
+import { Col, Container, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 

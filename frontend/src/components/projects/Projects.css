@@ -62,7 +62,7 @@
 }
 
 .tag:hover {
-  cursor: pointer;
+  cursor: default;
   background-color: #3e49545b;
   color: #eee;
 }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import terraquake from "../../../assets/project/terraquake-api.jpg";
+import terraquake from "../../../assets/project/terraquake-api.png";
 import { useTranslation } from 'react-i18next';
 import AOS from "aos";
 import "aos/dist/aos.css";

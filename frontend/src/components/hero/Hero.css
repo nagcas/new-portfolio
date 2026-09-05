@@ -1,0 +1,122 @@
+.content__hero {
+  width: 100%;
+  margin-top: 130px;
+  overflow: hidden;
+  position: relative;
+}
+
+.title__hero {
+  color: #eee;
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.subtitle__hero {
+  color: #eee;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.image__profile__hero {
+  width: 430px;
+  margin-top: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.icons__group {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.icons {
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.icons:hover {
+  cursor: pointer;
+  transform: translateY(-15px);
+}
+
+/* Per tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .content__hero {
+    margin-top: 150px;
+  }
+
+  .title__hero {
+    font-size: 5rem;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .subtitle__hero {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 20px;
+  }
+
+  .image__profile__hero {
+    width: 800px;
+    margin-top: 50px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .icons__group {
+    margin-top: 100px;
+    padding: 20px;
+  }
+  
+  .icons {
+    width: 100px;
+  }
+}
+
+/* Per desktop */
+@media only screen and (min-width: 1025px) {
+  .content__hero {
+    margin-top: 60px;
+  }
+
+  .content__title__hero {
+    margin-top: 10px;
+  }
+
+  .content__title__hero h1 {
+    margin-top: 120px;
+  }
+
+  .title__hero {
+    font-size: 6rem;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .subtitle__hero {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 20px;
+  }
+
+  .image__profile__hero {
+    width: 180%; 
+    height: auto;
+    margin-top: 50px;
+    object-fit: cover;
+    overflow-x: hidden;
+  }
+
+  .icons__group {
+    margin-top: 80px;
+    padding: 20px;
+  }
+  
+  .icons {
+    width: 160px;
+  }
+}

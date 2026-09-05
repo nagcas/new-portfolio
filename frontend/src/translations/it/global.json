@@ -1,0 +1,147 @@
+{
+  "about": {
+    "chi-sono": "Chi sono",
+    "text-1": "Da Geometra e Geologo a Web Developer Full Stack: Il Mio Percorso di Trasformazione",
+    "text-2": "La mia carriera è iniziata con una solida formazione tecnica come geometra, dove ho affinato precisione, problem-solving e attenzione ai dettagli. Successivamente, ho conseguito una laurea in Scienze Geologiche, che mi ha permesso di ampliare la mia conoscenza del territorio e della sua conformazione. Ho lavorato per anni nel settore edile e come perito bancario, occupandomi di valutazioni immobiliari. Tuttavia, sentivo il bisogno di esplorare nuove sfide.",
+    "text-3": "La mia passione per la tecnologia, nata con il ",
+    "text-4": "Commodore 64",
+    "text-5": "mi ha spinto verso il mondo dello sviluppo web. Dopo aver frequentato il ",
+    "text-6": "bootcamp Epicode",
+    "text-7": "ho imparato a padroneggiare tecnologie come React.js e MongoDB, creando progetti come ",
+    "text-8": "SafeQuake Alert",
+    "text-9": "una piattaforma per il monitoraggio sismico in tempo reale. ",
+    "text-10": "Oggi, unisco l'approccio metodico e analitico sviluppato nella mia carriera precedente alla creatività del presente, lavorando con passione per costruire soluzioni innovative e all'avanguardia. Reinventarsi è possibile: tutto parte da una solida base e dal desiderio di crescere continuamente.",
+    "text-11": "Happy coding"
+  },
+  "contacts": {
+    "contatti": "Contatti",
+    "devi-inserire-il-tuo-nome": "Devi inserire il tuo nome",
+    "devi-inserire-il-tuo-cognome": "Devi inserire il tuo cognome",
+    "devi-inserire-la-tua-email": "Devi inserire la tua email",
+    "devi-inserire-il-tuo-messaggio": "Devi inserire il tuo messaggio",
+    "errore-nell'invio-dei-dati": "Errore nell'invio dei dati",
+    "errore-nell'invio-della-email": "Errore nell'invio della email",
+    "messaggio-inviato": "Messaggio inviato correttamente",
+    "inserisci-il-tuo-nome": "Inserisci il tuo nome",
+    "inserisci-il-tuo-cognome": "Inserisci il tuo cognome",
+    "inserisci-la-tua-email": "Inserisci la tua email",
+    "inserisci-il-tuo-messaggio": "Inserisci il tuo messaggio",
+    "invia-messaggio": "Invia messaggio",
+    "gianluca": "Dr. Gianluca Chiaravalloti",
+    "cell": "Cell.",
+    "email": "email"
+  },
+  "footer": {
+    "text-logo-1": "Da Geometra e Geologo a Web Developer Full Stack: ",
+    "text-logo-2": "Il Mio Percorso di Trasformazione",
+    "contatti": "Contatti",
+    "email": "Email: ",
+    "telefono": "Telefono: ",
+    "chi-sono": "Chi sono",
+    "chi-sono-sfida": "Ogni problema risolto è una sfida vinta",
+    "seguimi": "Seguimi",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title-hero": "Trasformo idee in soluzioni digitali",
+    "subtitle-hero": "Geologo e Full Stack Web Developer, professionista innovativo capace di integrare competenze multidisciplinari per sviluppare soluzioni digitali moderne, affidabili e ad alto valore tecnologico."
+  },
+  "navbar": {
+    "home": "Home",
+    "progetti": "Progetti",
+    "skills": "Skills",
+    "chi-sono": "Chi sono",
+    "contatti": "Contatti",
+    "italiano": "Italiano",
+    "inglese": "Inglese",
+    "spagnolo": "Spagnolo"
+  },
+  "skills": {
+    "skills": "Skills"
+  },
+  "projects": {
+    "i-miei-progetti": "I miei progetti"
+  },
+  "project6": {
+    "text-1": "TerraQuake API",
+    "text-2": "Il progetto ",
+    "text-3": " è una piattaforma open-source ",
+    "text-4": "che fornisce accesso a dati sismici in tempo reale. Creato per favorire ricerca, sviluppo e applicazioni orientate alla sicurezza, il progetto si arricchisce grazie alle collaborazioni internazionali dei contributors, dimostrando il valore della cooperazione globale.",
+    "text-5": "Scopri di più sul mio progetto visitando la pagina "
+  },
+  "project5": {
+    "text-1": "Weather App",
+    "text-2": "Il progetto ",
+    "text-3": " è un'applicazione web open-source ",
+    "text-4": "creata per Hacktoberfest, che permette di visualizzare le condizioni meteorologiche in tempo reale. Questa esperienza mi ha permesso di migliorare non solo le mie abilità tecniche, ma anche la mia capacità di collaborare in un ambiente di sviluppo condiviso, imparando l'importanza della comunicazione e del feedback costruttivo.",
+    "text-5": "Scopri di più sul mio progetto visitando la pagina "
+  },
+  "project4": {
+    "text-1": "Clone airbnb",
+    "text-2": "Il progetto ",
+    "text-3": " è una pagina web sviluppata con ",
+    "text-4": "con HTML5, CSS3 e JavaScript durante la Build Week n. 2 del corso Epicode, in collaborazione con un team. Il gruppo, composto da Mattia Petruzzi, Gianluca Chiaravalloti, Francesca Montini e Marina Greco, ha creato pagine come la homepage, una lista di appartamenti e una pagina per un singolo appartamento. Il design è responsive per adattarsi a dispositivi mobili, tablet e desktop. Il sito include funzionalità interattive come il cambio lingua e una navigazione intuitiva tra le pagine.",
+    "text-5": "Scopri di più sul mio progetto visitando la pagina "
+  },
+  "project3": {
+    "text-1": "Epic Books",
+    "text-2": "Il progetto ",
+    "text-3": " è un'applicazione web sviluppata con ",
+    "text-4": " React e Bootstrap-react utilizzando 'Vite', progettata per gestire la visualizzazione dei books e i commenti. Gli utenti possono visualizzare, aggiungere, aggiornare ed eliminare commenti sui libri. L'applicazione utilizza diverse librerie per gestire il frontend e le richieste HTTP.",
+    "text-5": "Scopri di più sul mio progetto visitando la pagina GitHub "
+  },
+  "project2": {
+    "text-1": "Strive Blog",
+    "text-2": " è un'applicazione web sviluppata con React e Node.js.",
+    "text-3": "(MongoDB, Express.js, React, Node.js)",
+    "text-4": "Gli utenti possono registrarsi, accedere e creare post sul blog, oppure utilizzare direttamente Google o GitHub per accedere. Una volta iscritti, ricevono un'email di conferma automatica tramite Mailgun. Ogni utente può gestire i propri post, profilo e commentare quelli degli altri, oltre a esplorare l'elenco di autori.",
+    "text-5": "Scopri di più sul mio progetto visitando la pagina "
+  },
+  "project1": {
+    "text-1": "SafeQuake Alert",
+    "text-2": " è un'applicazione web avanzata sviluppata con React e Node.js. Progettata per fornire allerte in tempo reale riguardo ai terremoti e offrire consigli su come comportarsi durante tali eventi. Il sistema mira a migliorare la sicurezza pubblica attraverso notifiche tempestive, informazioni educative e news aggiornate.",
+    "text-3": "Scopri di più sul mio progetto visitando la pagina "
+  },
+  "privacy": {
+    "header": "Data di entrata in vigore: ",
+    "section-1": "1. Introduzione",
+    "section-2": "Questa Privacy Policy descrive come raccogliamo, utilizziamo e proteggiamo le informazioni personali degli utenti del sito ",
+    "section-3": "2. Informazioni che raccogliamo",
+    "section-4": "Informazioni fornite volontariamente",
+    "section-5": "Quando utilizzi il modulo di contatto, raccogliamo informazioni come:",
+    "nome": "Nome",
+    "cognome": "Cognome",
+    "email": "Indirizzo email",
+    "messaggio": "Messaggio inviato",
+    "section-6": "Dati di navigazione",
+    "section-7": "Raccogliamo automaticamente informazioni come l'indirizzo IP, il tipo di browser e le pagine visitate tramite cookie e tecnologie simili.",
+    "section-8": "3. Utilizzo delle informazioni",
+    "section-9": "Le informazioni raccolte sono utilizzate per rispondere alle richieste degli utenti e migliorare l'esperienza di navigazione del sito.",
+    "section-10": "4. Condivisione delle informazioni",
+    "section-11": "Non vendiamo o condividiamo le tue informazioni personali con terze parti, salvo obblighi legali.",
+    "section-12": "5. Sicurezza delle informazioni",
+    "section-13": "Adottiamo misure di sicurezza per proteggere le tue informazioni personali. Tuttavia, nessun sistema online è sicuro al 100%.",
+    "section-14": "6. Diritti degli utenti",
+    "section-15": "Hai il diritto di accedere, rettificare o cancellare i tuoi dati personali, così come altri diritti ai sensi del GDPR.",
+    "section-16": "7. Modifiche alla Privacy Policy",
+    "section-17": "Ci riserviamo il diritto di modificare questa Privacy Policy in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina.",
+    "section-18": "8. Contatti",
+    "section-19": "Per qualsiasi domanda riguardo alla Privacy Policy, puoi contattarci all'indirizzo ",
+    "section-20": "Utilizziamo cookie per migliorare la tua esperienza di navigazione. I cookie sono piccoli file di testo che vengono memorizzati sul tuo dispositivo.",
+    "section-21": "Tipologie di cookie utilizzati",
+    "section-22": "Cookie tecnici:",
+    "section-23": "Essenziali per il corretto funzionamento del sito.",
+    "section-24": "Cookie analitici:",
+    "section-25": "Utilizzati per raccogliere dati anonimi sulle modalità di utilizzo del sito.",
+    "section-26": "Cookie di terze parti:",
+    "section-27": "Potrebbero essere impostati da strumenti di terze parti, come i pulsanti di condivisione social.",
+    "section-28": "Gestione dei cookie",
+    "section-29": "Puoi gestire i cookie direttamente dal tuo browser. Ecco alcuni link utili per modificare le impostazioni dei cookie:"
+  },
+  "page404": {
+    "text-1": "Oops! La pagina che stai cercando non esiste.",
+    "text-2": "Sembra che tu abbia preso una strada sbagliata nel mio portfolio...",
+    "text-3": "Non preoccuparti, ti aiuto a tornare al profilo. 😊",
+    "link": "Torna al profilo"
+  }
+}

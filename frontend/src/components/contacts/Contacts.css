@@ -1,0 +1,135 @@
+.content__contacts {
+  margin-top: 60px;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content__title__contacts {
+  width: max-content;
+  border-radius: 25px;
+  color: #eee;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(62, 73, 84, 0.23);
+  padding: 10px 30px;
+}
+
+.form__contact {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Bootstrap form */
+.form-control {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff !important;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border-color: #ffffff70;
+  color: #fff !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Floating labels */
+.form-floating > label,
+.floating-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Input personalizzati */
+.form__input,
+.form__textarea {
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.form__input:hover,
+.form__textarea:hover {
+  background-color: rgba(39, 39, 39, 0.75);
+}
+
+/* Textarea */
+.form__textarea {
+  resize: vertical;
+  min-height: 200px !important;
+  max-height: 400px !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  color: #fff !important;
+}
+
+/* Bottone */
+.btn__send__form {
+  height: 50px;
+  padding: 0 36px;
+  background-color: rgba(39, 39, 39, 0.75);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn__send__form:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #111;
+}
+
+/* Icona */
+.icons__email {
+  font-size: 8rem;
+  color: #fff;
+}
+
+/* Alert */
+.alert {
+  border-radius: 15px;
+}
+
+.form-floating > label {
+  color: rgba(255, 255, 255, 0.7) !important;
+  background: transparent !important;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-select ~ label {
+  color: #fff !important;
+  background: transparent !important;
+}
+
+/* Rimuove il bianco dietro la label */
+.form-floating > label::after {
+  background: transparent !important;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .content__title__contacts {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+
+  .icons__email {
+    font-size: 5rem;
+  }
+
+  .content__contacts {
+    padding: 10px;
+  }
+}
+

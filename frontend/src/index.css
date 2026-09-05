@@ -1,4 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: #202020;
-  color: #fff;
+  background: url('./assets/images/david-clode-MNEGikPGkAM-unsplash.png') rgba(0, 0, 0, 0.8) fixed;
+  background-blend-mode: multiply;
+  background-position-x: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
+}
+
+html, body {
+  overflow: auto;
+}
+
+.no-copy {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }

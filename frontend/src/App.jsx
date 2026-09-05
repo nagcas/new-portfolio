@@ -1,20 +1,21 @@
-import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ContactPage from './pages/ContactPage'
-import ContactFormPage from './pages/ContactFormPage'
+import "./App.css";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Page404 from "./pages/page404/Page404";
+import Home from "./pages/home/Home";
 
 function App() {
-
   return (
-    <BrowserRouter> 
+    <Router>
       <Routes>
-
-        <Route path='/contact' element={ <ContactPage /> }  />
-        <Route path='/form' element={ <ContactFormPage /> }  />
-      </Routes> 
-    </BrowserRouter>
-  )
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Page404 />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

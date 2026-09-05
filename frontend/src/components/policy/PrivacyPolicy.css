@@ -1,0 +1,66 @@
+.btn__privacy {
+  color: #eee;
+  border: 1px solid #eee;
+}
+
+.btn__privacy:hover {
+  background-color: #3e49545b;
+  border: 1px solid #eee;
+  color: #eee;
+}
+
+.offcanvas-header .btn-close {
+  filter: invert(1); 
+}
+
+.offcanvas-header .btn-close:hover {
+  background-color: #f8f9fa7c;
+}
+
+.offcanvas-bottom {
+  height: 200%; 
+  top: auto;
+  bottom: 0;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.offcanvas-header .btn-close {
+  outline: none;
+  box-shadow: none;
+}
+
+.offcanvas-header .btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.offcanvas-bottom.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.offcanvas-bottom .offcanvas-body {
+  overflow-y: auto; 
+}
+
+.content__privacy {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  color: #eee;
+  padding: 100px;
+}
+
+.title__privacy {
+  font-size: 3rem;
+  color: #eee;
+}
+
+/* Smartphone - Offcanvas */
+@media (max-width: 991px) {
+  .content__privacy {
+    padding: 20px;
+
+  }
+}

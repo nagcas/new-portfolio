@@ -1,0 +1,147 @@
+{
+  "about": {
+    "chi-sono": "About",
+    "text-1": "From Surveyor and Geologist to Full Stack Web Developer: My Transformation Journey",
+    "text-2": "My career started with solid technical training as a surveyor, where I honed precision, problem-solving, and attention to detail. Later, I earned a degree in Geological Sciences, which allowed me to broaden my understanding of the land and its formation. I worked for years in the construction sector and as a banking expert, handling real estate appraisals. However, I felt the need to explore new challenges.",
+    "text-3": "My passion for technology, born with the ",
+    "text-4": "Commodore 64",
+    "text-5": "led me towards the world of web development. After attending the ",
+    "text-6": "Epicode bootcamp",
+    "text-7": "I learned to master technologies like React.js and MongoDB, creating projects such as",
+    "text-8": "SafeQuake Alert",
+    "text-9": "a platform for real-time seismic monitoring.",
+    "text-10": "Today, I combine the methodical and analytical approach developed in my previous career with the creativity of the present, working with passion to build innovative and cutting-edge solutions. Reinventing oneself is possible: everything starts with a solid foundation and the desire to grow continuously.",
+    "text-11": "Happy coding"
+  },
+  "contacts": {
+    "contatti": "Contacts",
+    "devi-inserire-il-tuo-nome": "You must enter your name",
+    "devi-inserire-il-tuo-cognome": "You must enter your surname",
+    "devi-inserire-la-tua-email": "You must enter your email",
+    "devi-inserire-il-tuo-messaggio": "You must enter your message",
+    "errore-nell'invio-dei-dati": "Error in sending data",
+    "errore-nell'invio-della-email": "Error sending email",
+    "messaggio-inviato": "Message sent successfully",
+    "inserisci-il-tuo-nome": "Enter your name",
+    "inserisci-il-tuo-cognome": "Enter your surname",
+    "inserisci-la-tua-email": "Enter your email",
+    "inserisci-il-tuo-messaggio": "Enter your message",
+    "invia-messaggio": "Send message",
+    "gianluca": "Dr. Gianluca Chiaravalloti",
+    "cell": "Cell.",
+    "email": "email"
+  },
+  "footer": {
+    "text-logo-1": "From Surveyor and Geologist to Full Stack Web Developer: ",
+    "text-logo-2": "My Transformation Journey",
+    "contatti": "Contact",
+    "email": "Email: ",
+    "telefono": "Phone: ",
+    "chi-sono": "About",
+    "chi-sono-sfida": "Every problem solved is a challenge won",
+    "seguimi": "Follow Me",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title-hero": "Transforming ideas into digital solutions",
+    "subtitle-hero": "Geologist and Full Stack Web Developer, an innovative professional capable of integrating multidisciplinary expertise to develop modern, reliable, and high-value digital solutions."
+  },
+  "navbar": {
+    "home": "Home",
+    "progetti": "Projects",
+    "skills": "Skills",
+    "chi-sono": "About",
+    "contatti": "Contact",
+    "italiano": "Italian",
+    "inglese": "English",
+    "spagnolo": "Spanish"
+  },
+  "skills": {
+    "skills": "Skills"
+  },
+  "projects": {
+    "i-miei-progetti": "My Projects"
+  },
+  "project6": {
+    "text-1": "TerraQuake API",
+    "text-2": "The project ",
+    "text-3": " is an open-source platform ",
+    "text-4": "that provides access to real-time seismic data. Built to support research, development, and safety-focused applications, the project thrives thanks to the international collaborations of contributors, highlighting the importance of global cooperation.",
+    "text-5": "Learn more about my project by visiting the page "
+  },
+  "project5": {
+    "text-1": "Weather App",
+    "text-2": "The project ",
+    "text-3": " is an open-source web application ",
+    "text-4": "created for Hacktoberfest, which allows users to view real-time weather conditions. This experience allowed me to improve not only my technical skills but also my ability to collaborate in a shared development environment, learning the importance of communication and constructive feedback.",
+    "text-5": "Learn more about my project by visiting the page "
+  },
+  "project4": {
+    "text-1": "Clone airbnb",
+    "text-2": "The project ",
+    "text-3": " is a web page developed with ",
+    "text-4": "HTML5, CSS3, and JavaScript during Build Week No. 2 of the Epicode course, in collaboration with a team. The group, composed of Mattia Petruzzi, Gianluca Chiaravalloti, Francesca Montini, and Marina Greco, created pages such as the homepage, a list of apartments, and a single apartment page. The design is responsive to adapt to mobile devices, tablets, and desktops. The site includes interactive features such as language switching and intuitive navigation between pages.",
+    "text-5": "Learn more about my project by visiting the page "
+  },
+  "project3": {
+    "text-1": "Epic Books",
+    "text-2": "The project ",
+    "text-3": " is a web application developed with ",
+    "text-4": " React and Bootstrap-react using 'Vite', designed to manage the visualization of books and comments. Users can view, add, update, and delete comments on books. The application uses various libraries to handle the frontend and HTTP requests.",
+    "text-5": "Learn more about my project by visiting the GitHub page "
+  },
+  "project2": {
+    "text-1": "Strive Blog",
+    "text-2": " is a web application developed with React and Node.js.",
+    "text-3": "(MongoDB, Express.js, React, Node.js)",
+    "text-4": "Users can register, log in, and create blog posts, or use Google or GitHub to sign in directly. Once registered, they receive an automatic confirmation email via Mailgun. Each user can manage their own posts, profile, and comment on others, as well as explore the author list.",
+    "text-5": "Learn more about my project by visiting the page "
+  },
+  "project1": {
+    "text-1": "SafeQuake Alert",
+    "text-2": " is an advanced web application developed with React and Node.js. Designed to provide real-time earthquake alerts and offer guidance on how to respond during such events. The system aims to enhance public safety through timely notifications, educational information, and updated news.",
+    "text-3": "Learn more about my project by visiting the page "
+  },
+  "privacy": {
+    "header": "Effective date: ",
+    "section-1": "1. Introduction",
+    "section-2": "This Privacy Policy describes how we collect, use, and protect personal information from users of the site ",
+    "section-3": "2. Information We Collect",
+    "section-4": "Information Provided Voluntarily",
+    "section-5": "When you use the contact form, we collect information such as:",
+    "nome": "First Name",
+    "cognome": "Last Name",
+    "email": "Email Address",
+    "messaggio": "Message sent",
+    "section-6": "Navigation Data",
+    "section-7": "We automatically collect information such as IP address, browser type, and pages visited through cookies and similar technologies.",
+    "section-8": "3. Use of Information",
+    "section-9": "The information collected is used to respond to user requests and improve the browsing experience on the site.",
+    "section-10": "4. Sharing of Information",
+    "section-11": "We do not sell or share your personal information with third parties, except as required by law.",
+    "section-12": "5. Information Security",
+    "section-13": "We take security measures to protect your personal information. However, no online system is 100% secure.",
+    "section-14": "6. User Rights",
+    "section-15": "You have the right to access, rectify, or delete your personal data, as well as other rights under the GDPR.",
+    "section-16": "7. Privacy Policy Changes",
+    "section-17": "We reserve the right to modify this Privacy Policy at any time. Changes will be posted on this page.",
+    "section-18": "8. Contact",
+    "section-19": "For any questions regarding the Privacy Policy, you can contact us at ",
+    "section-20": "We use cookies to improve your browsing experience. Cookies are small text files stored on your device.",
+    "section-21": "Types of cookies used",
+    "section-22": "Technical cookies:",
+    "section-23": "Essential for the proper functioning of the site.",
+    "section-24": "Analytical cookies:",
+    "section-25": "Used to collect anonymous data on how the site is used.",
+    "section-26": "Third-party cookies:",
+    "section-27": "May be set by third-party tools, such as social sharing buttons.",
+    "section-28": "Cookie management",
+    "section-29": "You can manage cookies directly from your browser. Here are some useful links to change cookie settings:"
+  },
+  "page404": {
+    "text-1": "Oops! The page you're looking for doesn't exist.",
+    "text-2": "It seems like you've taken a wrong turn in my portfolio...",
+    "text-3": "Don't worry, I'll help you get back to the profile. 😊",
+    "link": "Go back to the profile"
+  }
+}

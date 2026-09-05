@@ -253,7 +253,7 @@ function Contacts() {
                     name="content"
                     value={formContact.content}
                     onChange={handleInputChange}
-                    isInvalid={!!errors.message}
+                    isInvalid={!!errors.content}
                   />
                 </FloatingLabel>
               </Col>

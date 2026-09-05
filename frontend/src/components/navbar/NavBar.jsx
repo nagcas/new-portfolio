@@ -1,5 +1,5 @@
-import "./NavBar.css";
-import { useState } from "react";
+import './NavBar.css';
+import { useState } from 'react';
 import {
   Container,
   Dropdown,
@@ -7,40 +7,49 @@ import {
   Nav,
   Navbar,
   Offcanvas,
-} from "react-bootstrap";
-import { Link } from "react-scroll";
-import Italia from "../../assets/bandiere/icons8-italia-100.png";
-import Inglese from "../../assets/bandiere/icons8-gran-bretagna-100.png";
-import Spagna from "../../assets/bandiere/icons8-spagna-2-100.png";
-import { useTranslation } from "react-i18next";
-import Logo from "../../assets/logo/logo.png";
+} from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import Italia from '../../assets/bandiere/icons8-italia-100.png';
+import Inglese from '../../assets/bandiere/icons8-gran-bretagna-100.png';
+import Spagna from '../../assets/bandiere/icons8-spagna-2-100.png';
+import { useTranslation } from 'react-i18next';
+import Logo from '../../assets/logo/logo.png';
 
 function NavBar() {
-
-  const { t, i18n } = useTranslation("global");
+  const { t, i18n } = useTranslation('global');
 
   const [showOffcanvas, setShowOffcanvas] = useState(false);
-  const [activeLink, setActiveLink] = useState("hero");
+  const [activeLink, setActiveLink] = useState('hero');
 
   const handleClose = () => setShowOffcanvas(false);
   const handleShow = () => setShowOffcanvas(true);
 
   return (
     <Navbar
-      expand="lg"
-      className="navbar-dark mb-4 fixed-top p-4 menu__navbar shadow"
+      expand='lg'
+      className='navbar-dark mb-4 fixed-top p-4 menu__navbar shadow'
     >
       <Container fluid={true}>
         {/* Logo Portfolio */}
         <Navbar.Brand>
-          Gianluca <Image src={Logo} alt="Logo di Gianluca Chiaravalloti" className="logo" />{" "}
-          Chiaravalloti
+          <Link
+            to='hero'
+            className='logo-link mt-4'
+          >
+            Gianluca{' '}
+            <Image
+              src={Logo}
+              alt='Logo di Gianluca Chiaravalloti'
+              className='logo'
+            />{' '}
+            Chiaravalloti
+          </Link>
         </Navbar.Brand>
 
         {/* Toggle Btn */}
         <Navbar.Toggle
-          aria-controls="offcanvasNavbar-expand-lg"
-          className="shadow-none border-0"
+          aria-controls='offcanvasNavbar-expand-lg'
+          className='shadow-none border-0'
           onClick={handleShow}
         />
 
@@ -48,140 +57,179 @@ function NavBar() {
         <Navbar.Offcanvas
           show={showOffcanvas}
           onHide={handleClose}
-          id="offcanvasNavbar-expand-lg"
-          aria-labelledby="offcanvasNavbarLabel-expand-lg"
-          placement="start"
-          className="sidebar"
+          id='offcanvasNavbar-expand-lg'
+          aria-labelledby='offcanvasNavbarLabel-expand-lg'
+          placement='start'
+          className='sidebar'
         >
           {/* Sidebar header */}
           <Offcanvas.Header
-            className="text-white border-bottom close__white"
+            className='text-white border-bottom close__white'
             closeButton
           >
-            <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
-              Gianluca <Image src={Logo} alt="Logo di Gianluca Chiaravalloti" className="logo" />{" "}
+            <Offcanvas.Title id='offcanvasNavbarLabel-expand-lg'>
+              Gianluca{' '}
+              <Image
+                src={Logo}
+                alt='Logo di Gianluca Chiaravalloti'
+                className='logo'
+              />{' '}
               Chiaravalloti
             </Offcanvas.Title>
           </Offcanvas.Header>
 
           {/* Sidebar body */}
-          <Offcanvas.Body className="d-flex flex-column flex-lg-row p-4 p-lg-0">
-            <Nav className="d-flex justify-content-center align-items-center flex-grow-1 pe-3">
-            
-
+          <Offcanvas.Body className='d-flex flex-column flex-lg-row p-4 p-lg-0'>
+            <Nav className='d-flex justify-content-center align-items-center flex-grow-1 pe-3'>
               <Link
-                to="about"
+                to='about'
                 smooth={true}
                 duration={200}
                 spy={true}
                 offset={-100}
-                onSetActive={() => setActiveLink("about")}
+                onSetActive={() => setActiveLink('about')}
                 className={
-                  activeLink === "about"
-                    ? "mx-4 menu__navbar__link nav__menu active"
-                    : "mx-4 menu__navbar__link nav__menu"
+                  activeLink === 'about'
+                    ? 'mx-4 menu__navbar__link nav__menu active'
+                    : 'mx-4 menu__navbar__link nav__menu'
                 }
                 onClick={handleClose}
               >
-                {t("navbar.chi-sono")}
+                {t('navbar.chi-sono')}
               </Link>
 
               <Link
-                to="projects"
+                to='projects'
                 smooth={true}
                 duration={200}
                 spy={true}
                 offset={-100}
-                onSetActive={() => setActiveLink("projects")}
+                onSetActive={() => setActiveLink('projects')}
                 className={
-                  activeLink === "projects"
-                    ? "mx-4 menu__navbar__link nav__menu active"
-                    : "mx-4 menu__navbar__link nav__menu"
+                  activeLink === 'projects'
+                    ? 'mx-4 menu__navbar__link nav__menu active'
+                    : 'mx-4 menu__navbar__link nav__menu'
                 }
                 onClick={handleClose}
               >
-                {t("navbar.progetti")}
+                {t('navbar.progetti')}
               </Link>
 
               <Link
-                to="skills"
+                to='skills'
                 smooth={true}
                 duration={200}
                 spy={true}
                 offset={-100}
-                onSetActive={() => setActiveLink("skills")}
+                onSetActive={() => setActiveLink('skills')}
                 className={
-                  activeLink === "skills"
-                    ? "mx-4 menu__navbar__link nav__menu active"
-                    : "mx-4 menu__navbar__link nav__menu"
+                  activeLink === 'skills'
+                    ? 'mx-4 menu__navbar__link nav__menu active'
+                    : 'mx-4 menu__navbar__link nav__menu'
                 }
                 onClick={handleClose}
               >
-                {t("navbar.skills")}
+                {t('navbar.skills')}
               </Link>
 
               <Link
-                to="contacts"
+                to='contacts'
                 smooth={true}
                 duration={200}
                 spy={true}
                 offset={-100}
-                onSetActive={() => setActiveLink("contacts")}
+                onSetActive={() => setActiveLink('contacts')}
                 className={
-                  activeLink === "contacts"
-                    ? "mx-4 menu__navbar__link nav__menu active"
-                    : "mx-4 menu__navbar__link nav__menu"
+                  activeLink === 'contacts'
+                    ? 'mx-4 menu__navbar__link nav__menu active'
+                    : 'mx-4 menu__navbar__link nav__menu'
                 }
                 onClick={handleClose}
               >
-                {t("navbar.contatti")}
+                {t('navbar.contatti')}
               </Link>
               {/* Language and Social Icons */}
-              <div className="me-lg-4 mt-lg-0">
+              <div className='me-lg-4 mt-lg-0'>
                 {/* Language Dropdown */}
-                <Dropdown className="d-block mx-3">
-                  <Dropdown.Toggle className="bg-transparent border-0 custom-dropdown-toggle" variant="light">
-                    <span className="text-white">
-                      {i18n.language === "it" && <Image className="image__bandiera" src={Italia} alt="Italia" />}
-                      {i18n.language === "en" && <Image className="image__bandiera" src={Inglese} alt="Inglese" />}
-                      {i18n.language === "es" && <Image className="image__bandiera" src={Spagna} alt="Spagna" />}
+                <Dropdown className='d-block mx-3'>
+                  <Dropdown.Toggle
+                    className='bg-transparent border-0 custom-dropdown-toggle'
+                    variant='light'
+                  >
+                    <span className='text-white'>
+                      {i18n.language === 'it' && (
+                        <Image
+                          className='image__bandiera'
+                          src={Italia}
+                          alt='Italia'
+                        />
+                      )}
+                      {i18n.language === 'en' && (
+                        <Image
+                          className='image__bandiera'
+                          src={Inglese}
+                          alt='Inglese'
+                        />
+                      )}
+                      {i18n.language === 'es' && (
+                        <Image
+                          className='image__bandiera'
+                          src={Spagna}
+                          alt='Spagna'
+                        />
+                      )}
                     </span>
                   </Dropdown.Toggle>
-                  <Dropdown.Menu className="mx-2 drop__menu">
-                    <Dropdown.Item onClick={() => i18n.changeLanguage("it")}>
-                      <Image className="image__bandiera" src={Italia} alt="Italia" /> {t("navbar.italiano")}
+                  <Dropdown.Menu className='mx-2 drop__menu'>
+                    <Dropdown.Item onClick={() => i18n.changeLanguage('it')}>
+                      <Image
+                        className='image__bandiera'
+                        src={Italia}
+                        alt='Italia'
+                      />{' '}
+                      {t('navbar.italiano')}
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => i18n.changeLanguage("en")}>
-                      <Image className="image__bandiera" src={Inglese} alt="Inglese" /> {t("navbar.inglese")}
+                    <Dropdown.Item onClick={() => i18n.changeLanguage('en')}>
+                      <Image
+                        className='image__bandiera'
+                        src={Inglese}
+                        alt='Inglese'
+                      />{' '}
+                      {t('navbar.inglese')}
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => i18n.changeLanguage("es")}>
-                      <Image className="image__bandiera" src={Spagna} alt="Spagna" /> {t("navbar.spagnolo")}
+                    <Dropdown.Item onClick={() => i18n.changeLanguage('es')}>
+                      <Image
+                        className='image__bandiera'
+                        src={Spagna}
+                        alt='Spagna'
+                      />{' '}
+                      {t('navbar.spagnolo')}
                     </Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
               </div>
             </Nav>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className='d-flex justify-content-center align-items-center'>
               <a
-                href="https://github.com/nagcas"
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://github.com/nagcas'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                <i className="bi bi-github icons__social me-4"></i>
+                <i className='bi bi-github icons__social me-4'></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/gianluca-chiaravalloti-5694081a2/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://www.linkedin.com/in/gianluca-chiaravalloti-5694081a2/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                <i className="bi bi-linkedin icons__social me-4"></i>
+                <i className='bi bi-linkedin icons__social me-4'></i>
               </a>
               <a
-                href="https://discord.gg/JzfsTmWK"
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://discord.gg/JzfsTmWK'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                <i className="bi bi-discord icons__social"></i>
+                <i className='bi bi-discord icons__social'></i>
               </a>
             </div>
           </Offcanvas.Body>
@@ -192,5 +240,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-

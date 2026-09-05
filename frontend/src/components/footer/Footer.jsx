@@ -37,7 +37,7 @@ function Footer() {
             </Link>
             <p>
               {t('footer.text-logo-1')}{' '}
-              <span Name='fw-bold'>{t('footer.text-logo-2')}</span>
+              <span className='fw-bold'>{t('footer.text-logo-2')}</span>
             </p>
           </Col>
           <Col

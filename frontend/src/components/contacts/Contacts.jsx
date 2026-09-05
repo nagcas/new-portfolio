@@ -155,7 +155,7 @@ function Contacts() {
             {t("contacts.cell")} +39 351 8517108
             </p>
             <p className="fs-4 text-white no-copy">
-            {t("contacts.email")} <span className="fw-bold no-copy">studio.nagcas@outlook.it</span>
+              <span className="fw-bold no-copy">studio.nagcas@outlook.it</span>
             </p>
           </div>
         </Col>
@@ -188,7 +188,7 @@ function Contacts() {
               </Col>
               <Col md={6}>
                 <FloatingLabel
-                  controlId="contact-lastname"
+                  controlId="contact-last_name"
                   label={
                     errors.last_name ? (
                       <span className="text-danger">{errors.last_name}</span>

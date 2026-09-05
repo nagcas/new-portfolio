@@ -1,6 +1,6 @@
 import "./Skills.css";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";

@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import { Link } from "react-scroll";
 import Italia from "../../assets/bandiere/icons8-italia-100.png";
-import GranBretagna from "../../assets/bandiere/icons8-gran-bretagna-100.png";
+import Inglese from "../../assets/bandiere/icons8-gran-bretagna-100.png";
 import Spagna from "../../assets/bandiere/icons8-spagna-2-100.png";
 import { useTranslation } from "react-i18next";
 import Logo from "../../assets/logo/logo.png";
@@ -67,21 +67,23 @@ function NavBar() {
           {/* Sidebar body */}
           <Offcanvas.Body className="d-flex flex-column flex-lg-row p-4 p-lg-0">
             <Nav className="d-flex justify-content-center align-items-center flex-grow-1 pe-3">
+            
+
               <Link
-                to="hero"
+                to="about"
                 smooth={true}
                 duration={200}
                 spy={true}
                 offset={-100}
-                onSetActive={() => setActiveLink("hero")}
+                onSetActive={() => setActiveLink("about")}
                 className={
-                  activeLink === "hero"
+                  activeLink === "about"
                     ? "mx-4 menu__navbar__link nav__menu active"
                     : "mx-4 menu__navbar__link nav__menu"
                 }
                 onClick={handleClose}
               >
-                {t("navbar.home")}
+                {t("navbar.chi-sono")}
               </Link>
 
               <Link
@@ -119,23 +121,6 @@ function NavBar() {
               </Link>
 
               <Link
-                to="about"
-                smooth={true}
-                duration={200}
-                spy={true}
-                offset={-100}
-                onSetActive={() => setActiveLink("about")}
-                className={
-                  activeLink === "about"
-                    ? "mx-4 menu__navbar__link nav__menu active"
-                    : "mx-4 menu__navbar__link nav__menu"
-                }
-                onClick={handleClose}
-              >
-                {t("navbar.chi-sono")}
-              </Link>
-
-              <Link
                 to="contacts"
                 smooth={true}
                 duration={200}
@@ -158,7 +143,7 @@ function NavBar() {
                   <Dropdown.Toggle className="bg-transparent border-0 custom-dropdown-toggle" variant="light">
                     <span className="text-white">
                       {i18n.language === "it" && <Image className="image__bandiera" src={Italia} alt="Italia" />}
-                      {i18n.language === "en" && <Image className="image__bandiera" src={GranBretagna} alt="Gran Bretagna" />}
+                      {i18n.language === "en" && <Image className="image__bandiera" src={Inglese} alt="Inglese" />}
                       {i18n.language === "es" && <Image className="image__bandiera" src={Spagna} alt="Spagna" />}
                     </span>
                   </Dropdown.Toggle>
@@ -167,7 +152,7 @@ function NavBar() {
                       <Image className="image__bandiera" src={Italia} alt="Italia" /> {t("navbar.italiano")}
                     </Dropdown.Item>
                     <Dropdown.Item onClick={() => i18n.changeLanguage("en")}>
-                      <Image className="image__bandiera" src={GranBretagna} alt="Gran Bretagna" /> {t("navbar.inglese")}
+                      <Image className="image__bandiera" src={Inglese} alt="Inglese" /> {t("navbar.inglese")}
                     </Dropdown.Item>
                     <Dropdown.Item onClick={() => i18n.changeLanguage("es")}>
                       <Image className="image__bandiera" src={Spagna} alt="Spagna" /> {t("navbar.spagnolo")}
@@ -196,7 +181,7 @@ function NavBar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="bi bi-discord icons__social"></i>
+                <i className="bi bi-discord icons__social"></i>
               </a>
             </div>
           </Offcanvas.Body>

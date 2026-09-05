@@ -98,7 +98,7 @@ function Footer() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <i class='bi bi-discord icons__social'></i>
+                <i className='bi bi-discord icons__social'></i>
               </a>
             </div>
           </Col>

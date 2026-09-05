@@ -143,5 +143,8 @@
     "text-2": "Parece que has tomado un camino equivocado en mi portafolio...",
     "text-3": "No te preocupes, te ayudaré a volver al perfil. 😊",
     "link": "Volver al perfil"
+  },
+    "backToTop": {
+    "torna-in-alto": "Volver arriba"
   }
 }

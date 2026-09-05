@@ -143,5 +143,8 @@
     "text-2": "It seems like you've taken a wrong turn in my portfolio...",
     "text-3": "Don't worry, I'll help you get back to the profile. 😊",
     "link": "Go back to the profile"
+  },
+    "backToTop": {
+      "torna-in-alto": "Back to top"
   }
 }

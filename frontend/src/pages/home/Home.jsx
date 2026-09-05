@@ -5,6 +5,7 @@ import Hero from "../../components/hero/Hero";
 import NavBar from "../../components/navbar/NavBar";
 import Projects from "../../components/projects/Projects";
 import Skills from "../../components/skills/Skills";
+import BackToTop from "../../components/backToTop/BackToTop";
 
 function Home() {
   return(
@@ -15,6 +16,7 @@ function Home() {
       <Projects />
       <Skills />
       <Contacts />
+      <BackToTop />
       <Footer />
     </>
   );

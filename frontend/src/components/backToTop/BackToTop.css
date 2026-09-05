@@ -1,0 +1,14 @@
+.icons__back {
+  background: none;
+  font-size: 1.5rem;
+  color: #eee;
+  border: 1px solid #eee;
+  padding: 8px 12px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+.icons__back:hover {
+  background-color: #03162b9a;
+  color: #eee;
+}

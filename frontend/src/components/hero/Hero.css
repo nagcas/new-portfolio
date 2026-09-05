@@ -38,7 +38,6 @@
 }
 
 .icons:hover {
-  cursor: pointer;
   transform: translateY(-15px);
 }
 
@@ -92,7 +91,7 @@
   }
 
   .title__hero {
-    font-size: 6rem;
+    font-size: 4rem;
     padding: 20px;
     margin-left: 20px;
   }

@@ -5,9 +5,10 @@
 }
 
 body {
-  background: url('./assets/images/david-clode-MNEGikPGkAM-unsplash.png') rgba(0, 0, 0, 0.8) fixed;
+  background: url('./assets/images/pexels-koprivakart-19270193.jpg') rgba(0, 0, 0, 0.7) fixed;
   background-blend-mode: multiply;
-  background-position-x: 50%;
+  background-position-x: 100%;
+  background-position-y: 50%;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;

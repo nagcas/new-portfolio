@@ -12,7 +12,7 @@
   position: relative;
   text-decoration: none;
   color: #eee;
-  cursor: pointer; /* Importante per indicare che è cliccabile */
+  cursor: pointer;
 }
 
 .nav__menu::after {
@@ -46,13 +46,13 @@
 }
 
 .menu__navbar__link {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #eee;
   text-decoration: none;
 }
 
 .menu__navbar__link:hover {
-  color: #ccc;
+  color: #03162b9a;
 }
 
 .menu__navbar__link.active {
@@ -100,13 +100,14 @@
 }
 
 .icons__social:hover {
-  background-color: #3e49545b;
+  background-color: #03162b9a;
   color: #eee;
 }
 
 .icons__bandiera {
   width: 50px;
   height: 45px;
+  aspect-ratio: 1;
   color: #eee;
   border: 1px solid #eee;
   padding: 8px 12px;

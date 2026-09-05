@@ -1,7 +1,6 @@
 import "./Hero.css";
 
 import { Col, Container, Image, Row } from "react-bootstrap";
-import imageProfile from "../../assets/images/david-clode-MNEGikPGkAM-unsplash.png";
 import iconReact from "../../assets/icons/icons8-react-native-240.png";
 import iconHtml from "../../assets/icons/icons8-html-240.png";
 import iconCSS from "../../assets/icons/icons8-css-240.png";
@@ -49,14 +48,6 @@ function Hero() {
               </div>
             </div>
           </Col>
-         
-          {/* <Col>
-            <Image 
-              src={imageProfile} 
-              alt="Image Profile" 
-              className="image__profile__hero"
-            />
-          </Col> */}
         </Row>
       </div>
      

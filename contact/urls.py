@@ -1,7 +1,6 @@
 from django.urls import path, include
 from rest_framework import routers
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-from .views import ContactView
 from .views import ContactView, register, login, profile
 
 router = routers.DefaultRouter()

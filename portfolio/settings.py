@@ -141,7 +141,7 @@ MAILERS = {
 }
 
 # Cors authorization
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://portfolio-gianluca-phi.vercel.app/']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://portfolio-gianluca-phi.vercel.app']
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [

@@ -146,5 +146,22 @@
   },
     "backToTop": {
     "torna-in-alto": "Volver arriba"
+  },
+  "chat": {
+    "saluto": "¡Hola! 👋 Soy el asistente virtual de Gianluca. Puedo ayudarte a conocer mejor su experiencia, competencias, proyectos y actividades profesionales.",
+    "riprova": "Has enviado demasiados mensajes. Inténtalo de nuevo en unos momentos.",
+    "servizio": "El servicio no está disponible temporalmente.",
+    "valida": "No he recibido una respuesta válida.",
+    "storto": "Algo salió mal. Inténtalo de nuevo.",
+    "ripulita": "¡Chat borrado! 👋 ¿Cómo puedo ayudarte?",
+    "apri": "Abrir asistente virtual",
+    "assistente": "Asistente virtual",
+    "assistente-portfolio": "Asistente del Portfolio",
+    "cancella": "Borrar conversación",
+    "chiudi": "Cerrar asistente",
+    "chiedi": "Pregunta algo...",
+    "scrivi": "Escribe un mensaje",
+    "invia": "Enviar mensaje",
+    "virtuale": "Asistente virtual · Portfolio de Gianluca"
   }
 }

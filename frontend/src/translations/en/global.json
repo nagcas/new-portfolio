@@ -146,5 +146,22 @@
   },
     "backToTop": {
       "torna-in-alto": "Back to top"
+  },
+  "chat": {
+    "saluto": "Hi! 👋 I’m Gianluca’s virtual assistant. I can help you learn more about his experience, skills, projects, and professional activities.",
+    "riprova": "You have sent too many messages. Please try again shortly.",
+    "servizio": "The service is temporarily unavailable.",
+    "valida": "I did not receive a valid response.",
+    "storto": "Something went wrong. Please try again.",
+    "ripulita": "Chat cleared! 👋 How can I help you?",
+    "apri": "Open virtual assistant",
+    "assistente": "Virtual assistant",
+    "assistente-portfolio": "Portfolio Assistant",
+    "cancella": "Clear conversation",
+    "chiudi": "Close assistant",
+    "chiedi": "Ask something...",
+    "scrivi": "Write a message",
+    "invia": "Send message",
+    "virtuale": "Virtual assistant · Gianluca’s Portfolio"
   }
 }

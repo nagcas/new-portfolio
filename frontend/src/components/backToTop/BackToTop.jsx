@@ -30,7 +30,7 @@ export default function BackToTopButton({ threshold = 280 }) {
           exit={{ opacity: 0, scale: 0.8, y: 20 }}
           transition={{ duration: 0.2, ease: 'easeInOut' }}
           onClick={scrollToTop}
-          className="position-fixed bottom-0 end-0 m-4 d-flex align-items-center justify-content-center z-3 icons__back"
+          className="position-fixed bottom-0 start-0 m-4 d-flex align-items-center justify-content-center z-3 icons__back"
           style={{ width: '50px', height: '50px' }}
           aria-label={t('navbar.torna-in-alto')}
         >

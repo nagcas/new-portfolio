@@ -6,6 +6,7 @@ import NavBar from "../../components/navbar/NavBar";
 import Projects from "../../components/projects/Projects";
 import Skills from "../../components/skills/Skills";
 import BackToTop from "../../components/backToTop/BackToTop";
+import ChatAssistant from "../../components/chatAssistant/ChatAssistant";
 
 function Home() {
   return(
@@ -17,6 +18,7 @@ function Home() {
       <Skills />
       <Contacts />
       <BackToTop />
+      <ChatAssistant />
       <Footer />
     </>
   );

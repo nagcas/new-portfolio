@@ -87,6 +87,9 @@ Competenze acquisite:
 - CI/CD
 - Git
 - Single Page Applications
+- Python
+- SQL
+- 
 
 
 Laurea Triennale in Scienze Geologiche
@@ -318,6 +321,9 @@ Competenze sviluppate:
 TITOLARE FRANCHISING
 Crema & Cioccolato
 2017–2019
+
+TOUTOR KODLAND
+Da Marzo 2026 lavoro come tutor presso Kodland, dove insegno programmazione e sviluppo di giochi a studenti di diverse età. Durante le lezioni, utilizzo Python, Scratch e altre tecnologie per rendere l'apprendimento pratico, interattivo e divertente.
 
 Responsabilità:
 - gestione operativa del punto vendita

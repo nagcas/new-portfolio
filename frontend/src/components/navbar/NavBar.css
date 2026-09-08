@@ -51,10 +51,6 @@
   text-decoration: none;
 }
 
-.menu__navbar__link:hover {
-  color: #ccc;
-}
-
 .menu__navbar__link.active {
   color: #eee;
 }
@@ -100,7 +96,7 @@
 }
 
 .icons__social:hover {
-  background-color: #03162b9a;
+  background-color: #190C15;
   color: #eee;
 }
 

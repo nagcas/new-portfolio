@@ -6,7 +6,7 @@
 }
 
 .content__title__skills {
-  width: max-content;
+  /* width: max-content; */
   height: auto;
   border-radius: 25px;
   color: #eee;
@@ -27,9 +27,9 @@
   padding: 20px;
 }
 
-.skills:hover {
+/* .skills:hover {
   background-color: #e0e0e057;
-}
+} */
 
 .skill-bar {
   background-color: #e0e0e0;

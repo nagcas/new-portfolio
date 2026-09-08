@@ -10,7 +10,7 @@
 }
 
 .content__title__projects {
-  width: max-content;
+  /* width: max-content; */
   height: auto;
   border-radius: 25px;
   color: #eee;
@@ -61,11 +61,11 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.tag:hover {
+/* .tag:hover {
   cursor: default;
   background-color: #3e49545b;
   color: #eee;
-}
+} */
 
 .tag i {
   margin-right: 5px;

@@ -7,7 +7,7 @@
 }
 
 .content__title__about {
-  width: max-content;
+  /* width: max-content; */
   height: auto;
   border-radius: 25px;
   color: #eee;

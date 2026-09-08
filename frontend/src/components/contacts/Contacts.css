@@ -7,7 +7,7 @@
 }
 
 .content__title__contacts {
-  width: max-content;
+  /* width: max-content; */
   border-radius: 25px;
   color: #eee;
   margin: 60px auto;

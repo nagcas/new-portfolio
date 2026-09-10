@@ -1,126 +1,335 @@
 .content__hero {
   width: 100%;
-  margin-top: 100px;
+  min-height: calc(100vh - 60px);
+  margin-top: 120px;
+  padding: 70px 20px 50px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   TESTO
+   ========================= */
+
+.content__title__hero {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title__hero {
   color: #eee;
-  font-size: 2.0rem;
-  padding: 60px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+
+  /* Evita padding troppo grandi che restringono il testo */
+  padding: 10px 15px;
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: 900px;
+
   text-align: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .subtitle__hero {
   color: #eee;
-  margin-top: 30px;
-  padding: 20px;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  line-height: 1.6;
+
+  margin: 25px auto 0;
+  padding: 10px 15px;
+
+  width: 100%;
+  max-width: 700px;
+
   text-align: center;
+  opacity: 0.8;
 }
+
+/* =========================
+   IMMAGINE PROFILO
+   ========================= */
 
 .image__profile__hero {
-  width: 430px;
-  margin-top: 50px;
-  object-fit: cover;
+  display: block;
+  width: min(100%, 350px);
+  height: auto;
+
+  margin: 20px auto 0;
+
+  object-fit: contain;
   object-position: center;
+
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.35));
+
+  border-radius: 36px;
+  border: 4px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
+/* =========================
+   ICONE
+   ========================= */
+
 .icons__group {
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 20px;
   text-align: center;
 }
 
 .icons {
   width: 50px;
-  transition: transform 0.3s ease;
+  height: auto;
+
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .icons:hover {
-  transform: translateY(-15px);
+  transform: translateY(-8px);
+  opacity: 0.85;
 }
 
-/* Per tablet */
+/* Bottone */
+.hero__button_1 {
+  height: 60px;
+  padding: 20px 36px;
+  margin-top: 30px;
+  background-color: rgba(39, 39, 39, 0.75);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hero__button_1:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #111;
+}
+
+/* Bottone */
+.hero__button_2 {
+  height: 60px;
+  padding: 20px 36px;
+  margin-top: 30px;
+  background-color: rgba(94, 91, 91, 0.75);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hero__button_2:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #111;
+}
+
+/* =========================
+   TABLET
+   768px — 1024px
+   ========================= */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .py-5 {
+    padding-top: 6rem !important;
+  }
+
   .content__hero {
-    margin-top: 150px;
+    min-height: auto;
+
+    /*
+     * Spazio sufficiente sotto il menu,
+     * senza usare margin-top enormi.
+     */
+    margin-top: 80px;
+
+    padding: 80px 25px 70px;
   }
 
   .title__hero {
-    font-size: 2.5rem;
-    padding: 20px;
-    margin-left: 20px;
+    font-size: clamp(2.4rem, 5.5vw, 3.5rem);
+    line-height: 1.1;
+
+    padding: 10px 15px;
+
+    max-width: 800px;
   }
-  
+
   .subtitle__hero {
-    margin-top: 30px;
-    padding: 20px;
-    margin-left: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    margin-top: 20px;
+    padding: 10px 20px;
+
+    max-width: 650px;
   }
 
   .image__profile__hero {
-    width: 800px;
-    margin-top: 50px;
-    object-fit: cover;
-    object-position: center;
+    width: min(75%, 400px);
+    margin: 45px auto 0;
   }
 
   .icons__group {
-    margin-top: 100px;
-    padding: 20px;
-  }
-  
-  .icons {
-    width: 100px;
-  }
-}
-
-/* Per desktop */
-@media only screen and (min-width: 1025px) {
-  .content__hero {
     margin-top: 60px;
   }
 
-  .content__title__hero {
-    margin-top: 10px;
+  .icons {
+    width: 70px;
+  }
+}
+
+/* =========================
+   DESKTOP
+   ========================= */
+
+@media only screen and (min-width: 1025px) {
+
+  .content__hero {
+    min-height: calc(100vh - 60px);
+
+    margin-top: 40px;
+    padding: 60px 30px 50px;
   }
 
-  .content__title__hero h1 {
-    margin-top: 120px;
-    margin-left: 100px;
-    margin-right: 100px;
+  .content__title__hero {
+    padding: 20px;
   }
 
   .title__hero {
-    font-size: 4rem;
-    padding: 20px;
-    margin-left: 20px;
+    font-size: clamp(3.5rem, 5vw, 1rem);
+    padding: 10px 20px;
+
+    max-width: 900px;
   }
-  
+
   .subtitle__hero {
-    font-size: 1.5rem;
-    margin-top: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 60px;
-    margin-left: 20px;
+    font-size: 1.4rem;
+
+    margin: 30px auto 0;
+    padding: 10px 20px;
+
+    max-width: 700px;
   }
 
   .image__profile__hero {
-    width: 180%; 
-    height: auto;
-    margin-top: 50px;
-    object-fit: cover;
-    overflow-x: hidden;
+    width: min(100%, 350px);
+    margin: 0 auto;
   }
 
   .icons__group {
-    margin-top: 80px;
+    margin-top: 60px;
     padding: 20px;
   }
-  
+
   .icons {
-    width: 160px;
+    width: 70px;
+  }
+}
+
+/* =========================
+   MOBILE
+   fino a 767px
+   ========================= */
+
+@media only screen and (max-width: 767px) {
+
+  .py-5 {
+    padding-top: 6rem !important;
+  }
+
+  .content__hero {
+    min-height: auto;
+    margin-top: 100px;
+    padding: 70px 12px 60px;
+  }
+
+  .title__hero {
+    /*
+     * Il clamp permette al titolo di
+     * ridursi automaticamente sugli
+     * schermi più piccoli.
+     */
+    font-size: 1.6rem;
+
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+
+    padding: 8px 5px;
+
+    max-width: 100%;
+  }
+
+  .subtitle__hero {
+    font-size: 1.05rem;
+    line-height: 1.5;
+
+    margin-top: 20px;
+    padding: 8px 10px;
+
+    max-width: 100%;
+  }
+
+  .image__profile__hero {
+    width: min(82%, 320px);
+    margin: 35px auto 0;
+  }
+
+  .icons__group {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .icons {
+    width: 50px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+   fino a 400px
+   ========================= */
+
+@media only screen and (max-width: 400px) {
+  .py-5 {
+    padding-top: 10rem !important;
+  }
+
+  .content__hero {
+    margin-top: 80px;
+    padding: 60px 10px 50px;
+  }
+
+  .title__hero {
+    font-size: 1.6rem;
+    line-height: 1.08;
+    padding: 5px 0;
+  }
+
+  .subtitle__hero {
+    font-size: 0.98rem;
+    padding: 5px;
+  }
+
+  .image__profile__hero {
+    width: min(85%, 290px);
+    margin-top: 30px;
   }
 }

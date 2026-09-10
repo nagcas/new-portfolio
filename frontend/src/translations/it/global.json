@@ -42,9 +42,12 @@
     "seguimi": "Seguimi",
     "portfolio": "Portfolio"
   },
-  "hero": {
-    "title-hero": "Dalla conoscenza del territorio al mondo digitale",
-    "subtitle-hero": "Geologo e Full Stack Web Developer, porto in ambito digitale un approccio basato su analisi, precisione e problem solving. Integro competenze scientifiche, tecniche e informatiche per sviluppare applicazioni e servizi digitali innovativi."
+    "hero": { 
+      "eyebrow": "Geologo · Full Stack Developer", 
+      "title-hero": "Dalla conoscenza del territorio al mondo digitale", 
+      "subtitle-hero": "Trasformo competenze tecniche e passione per la tecnologia in soluzioni web moderne.", "description-hero": "Sono Gianluca Chiaravalloti, geologo e Full Stack Developer. Sviluppo applicazioni con React e Django REST Framework, combinando analisi, tecnologia e attenzione all'esperienza utente.", 
+      "projects-button": "Scopri i miei progetti", 
+      "contact-button": "Contattami" 
   },
   "navbar": {
     "home": "Home",

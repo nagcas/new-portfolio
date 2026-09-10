@@ -1,8 +1,7 @@
 import "./About.css";
 
 import { useEffect, useState } from "react";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
-import Gianluca from "../../assets/profile/gianluca.png";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -45,7 +44,7 @@ function About() {
         {t("about.chi-sono")}
       </h2>
       <Row className="d-flex justify-content-between align-items-center">
-        <Col data-aos="zoom-out-left" sm={12} md={12} lg={8}>
+        <Col data-aos="zoom-out-left" sm={12} md={12} lg={12}>
           <h4>
             {t("about.text-1")}
           </h4>
@@ -69,20 +68,6 @@ function About() {
           <p className="about__text float-end">
             {t("about.text-11")}
           </p>
-        </Col>
-        <Col
-          data-aos="zoom-out-right"
-          sm={12}
-          md={12}
-          lg={4}
-          className="d-flex flex-column justify-content-center align-items-center content__foto__profilo"
-        >
-          <Image
-            src={Gianluca}
-            alt="Foto Gianluca Chiaravalloti"
-            className="foto__profilo"
-            loading="lazy"
-          />
           <div className="download-cv">
             <a href="/cv/CV_Gianluca_Chiaravalloti.pdf" download>
               <Button

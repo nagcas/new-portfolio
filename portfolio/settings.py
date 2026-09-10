@@ -31,6 +31,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(",")
 
+ENVIRONMENT = os.environ.get('ENVIRONMENT', default='development')
+
 
 # Application definition
 

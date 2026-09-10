@@ -27,14 +27,14 @@ function NavBar() {
   return (
     <Navbar
       expand='lg'
-      className='navbar-dark mb-4 fixed-top p-4 menu__navbar shadow'
+      className='navbar-dark fixed-top menu__navbar shadow'
     >
       <Container fluid={true}>
         {/* Logo Portfolio */}
         <Navbar.Brand>
           <Link
             to='hero'
-            className='logo-link mt-4'
+            className='logo-link'
           >
             Gianluca{' '}
             <Image

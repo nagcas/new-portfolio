@@ -58,6 +58,8 @@ function Contacts() {
     last_name: "",
     email: "",
     content: "",
+    answer: "",
+    done: false,
   });
 
   // Gestisce i cambiamenti nei campi di input del modulo form
@@ -128,6 +130,8 @@ function Contacts() {
           last_name: "",
           email: "",
           content: "",
+          answer: "",
+          done: false,
         });
         setMessage(null); // Rimuove il messaggio di successo
       }, 1500);

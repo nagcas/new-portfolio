@@ -23,7 +23,7 @@
 
 .title__hero {
   color: #eee;
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size: 3.0rem !important;
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: -0.03em;
@@ -148,7 +148,14 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
   .py-5 {
-    padding-top: 6rem !important;
+    padding-top: 1rem !important;
+  }
+
+  h1 {
+    font-size: 3.0rem;
+  }
+  p {
+    font-size: 1.3rem;
   }
 
   .content__hero {
@@ -158,13 +165,13 @@
      * Spazio sufficiente sotto il menu,
      * senza usare margin-top enormi.
      */
-    margin-top: 80px;
+    margin-top: 40px;
 
     padding: 80px 25px 70px;
   }
 
   .title__hero {
-    font-size: clamp(2.4rem, 5.5vw, 3.5rem);
+    font-size: 2.0rem !important;
     line-height: 1.1;
 
     padding: 10px 15px;
@@ -214,7 +221,7 @@
   }
 
   .title__hero {
-    font-size: clamp(3.5rem, 5vw, 1rem);
+    font-size: 1.0rem !important;
     padding: 10px 20px;
 
     max-width: 900px;
@@ -255,6 +262,13 @@
     padding-top: 6rem !important;
   }
 
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.05rem;
+  }
+
   .content__hero {
     min-height: auto;
     margin-top: 100px;
@@ -267,7 +281,7 @@
      * ridursi automaticamente sugli
      * schermi più piccoli.
      */
-    font-size: 1.6rem;
+    font-size: 1.0rem !important;
 
     line-height: 1.08;
     letter-spacing: -0.025em;
@@ -309,7 +323,14 @@
 
 @media only screen and (max-width: 400px) {
   .py-5 {
-    padding-top: 10rem !important;
+    padding-top: 6rem !important;
+  }
+
+  h1 {
+    font-size: 2.0rem;
+  }
+  p {
+    font-size: 0.98rem;
   }
 
   .content__hero {
@@ -317,8 +338,8 @@
     padding: 60px 10px 50px;
   }
 
-  .title__hero {
-    font-size: 1.6rem;
+  .title__hero h1 {
+    font-size: 2.0rem !important;
     line-height: 1.08;
     padding: 5px 0;
   }

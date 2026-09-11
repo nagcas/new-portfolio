@@ -36,6 +36,10 @@
 
 h1.title__hero {
   color: #eee;
+  font-size: 3.0rem !important;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
 
   /* Desktop base */
   font-size: 5rem;
@@ -162,16 +166,33 @@ h1.title__hero {
    ========================= */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .content__hero {
-    min-height: auto;
-    margin-top: 80px;
-    padding: 70px 25px 60px;
+
+  .py-5 {
+    padding-top: 1rem !important;
   }
 
-  h1.title__hero {
-    font-size: 3rem;
-    line-height: 1.12;
-    letter-spacing: -0.02em;
+  h1 {
+    font-size: 3.0rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+
+  .content__hero {
+    min-height: auto;
+
+    /*
+     * Spazio sufficiente sotto il menu,
+     * senza usare margin-top enormi.
+     */
+    margin-top: 40px;
+
+    padding: 80px 25px 70px;
+  }
+
+  .title__hero {
+    font-size: 2.0rem !important;
+    line-height: 1.1;
 
     padding: 10px 15px;
     max-width: 800px;
@@ -218,10 +239,9 @@ h1.title__hero {
     padding: 20px;
   }
 
-  h1.title__hero {
-    font-size: 4rem;
-    line-height: 1.1;
-    letter-spacing: -0.025em;
+  .title__hero {
+    font-size: 1.0rem !important;
+    padding: 10px 20px;
 
     padding: 10px 20px;
     max-width: 900px;
@@ -258,6 +278,18 @@ h1.title__hero {
    ========================= */
 
 @media only screen and (max-width: 767px) {
+
+  .py-5 {
+    padding-top: 6rem !important;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.05rem;
+  }
+
   .content__hero {
     min-height: auto;
 
@@ -265,10 +297,16 @@ h1.title__hero {
     padding: 50px 15px 50px;
   }
 
-  h1.title__hero {
-    font-size: 2rem;
-    line-height: 1.15;
-    letter-spacing: -0.015em;
+  .title__hero {
+    /*
+     * Il clamp permette al titolo di
+     * ridursi automaticamente sugli
+     * schermi più piccoli.
+     */
+    font-size: 1.0rem !important;
+
+    line-height: 1.08;
+    letter-spacing: -0.025em;
 
     padding: 8px 5px;
     max-width: 100%;
@@ -313,17 +351,26 @@ h1.title__hero {
    ========================= */
 
 @media only screen and (max-width: 400px) {
+  .py-5 {
+    padding-top: 6rem !important;
+  }
+
+  h1 {
+    font-size: 2.0rem;
+  }
+  p {
+    font-size: 0.98rem;
+  }
+
   .content__hero {
     margin-top: 80px;
     padding: 45px 12px 45px;
   }
 
-  h1.title__hero {
-    font-size: 1.7rem;
-    line-height: 1.18;
-    letter-spacing: -0.01em;
-
-    padding: 8px 3px;
+  .title__hero h1 {
+    font-size: 2.0rem !important;
+    line-height: 1.08;
+    padding: 5px 0;
   }
 
   .subtitle__hero {
